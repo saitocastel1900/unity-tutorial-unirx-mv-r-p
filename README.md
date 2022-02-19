@@ -2,7 +2,7 @@
 This is a project created to learn design patterns, implementing UI using MV(P)R pattern with UniRx.
 MV(R)Pの学習の一環で作成したプロジェクトです。
 # MV(R)Pパターン  
-Web業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。  
+主にWeb業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。イベント処理が得意なUniRxと相性が良い。  
   
 Model:値を管理  
 Presenter:ModelとPresenterを繋ぐ  
