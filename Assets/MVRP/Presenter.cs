@@ -11,7 +11,7 @@ namespace UniRx.MVRP
 public class Presenter : MonoBehaviour
 {
     [SerializeField] private Model _model;
-    
+
     [SerializeField] private InputField _inputField;
     [SerializeField] private Button _upButton;
     [SerializeField] private Button _downButton;
@@ -39,18 +39,17 @@ public class Presenter : MonoBehaviour
             .Subscribe(x => _model.UpdateCount(x.value))
             .AddTo(this);
 
+        //sliderの値が変動したら実体にも値を変更する
         _slider
             .OnValueChangedAsObservable()
             .Subscribe(x => _model.UpdateCount((int) x))
             .AddTo(this);
 
+        //ボタンが押されたら実体を変更する
         Observable.Merge(
             _upButton.OnClickAsObservable().Select(_ => +1),
             _downButton.OnClickAsObservable().Select(_ => -1)
-        ).Subscribe(value =>
-            {
-                _model.UpdateCount(_model.Current.Value + value);
-            }
+        ).Subscribe(value => { _model.UpdateCount(_model.Current.Value + value); }
         ).AddTo(this);
     }
 
