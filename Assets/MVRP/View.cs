@@ -2,24 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Œ©‚½–Ú‚ÉŠÖ‚·‚éƒƒWƒbƒN
-/// </summary>
+/*
+ æç”»ã«é–¢ã™ã‚‹ãƒ­ã‚¸ãƒƒã‚¯
+ */
 namespace UniRx.MVRP
 {
  public class View : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
 
 }
