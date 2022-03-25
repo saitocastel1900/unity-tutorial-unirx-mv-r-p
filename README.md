@@ -18,6 +18,9 @@ View--Viewの変更を通知-->Presenter
 
 # おまけ
 ### ReactiveCommandをUIに応用してみる 
+ReactiveCommandとは...　**処理が可能であるかを制御する機構**   
+ReactiveCommandでトグルなどがTrueだった場合の処理を簡易化。　　
+Executeでボタンが押された際に処理命令の実行を依頼する
 
 ##
 参考
