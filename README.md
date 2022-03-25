@@ -16,7 +16,7 @@ View--Viewの変更を通知-->Presenter
 
 ```  
 
-## おまけ
+## おまけ ReactiveCommandをUIに応用してみる
 
 ##
 参考
