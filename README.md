@@ -24,7 +24,7 @@ View--Viewの変更を通知-->Presenter
 ## サンプル
 ・MV(R)Pパターンを用いたBGM、SEの調整
 
-・ReactiveCommandを用いたBGM、SEのON、oFF  
+・ReactiveCommandを用いたBGM、SEのON、oFF    
 
 ## 参考
 https://orotiyamatano.hatenablog.com/entry/2019/08/19/Unity%E3%81%AEMVP%E3%80%81MV(R)P%E3%82%92%E8%AA%BF%E3%81%B9%E3%81%9F%E3%81%91%E3%81%A9%E3%80%81%E3%81%A9%E3%82%8C%E3%81%8C%E6%AD%A3%E3%81%97%E3%81%84%E3%82%93%E3%81%A0%EF%BC%9F   
