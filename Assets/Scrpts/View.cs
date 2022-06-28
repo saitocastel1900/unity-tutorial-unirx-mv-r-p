@@ -13,7 +13,7 @@ namespace UniRx.MVRP
  {
   void OnClick()
   {
-   this.gameObject.GetComponent<Button>().colo
+  // this.gameObject.GetComponent<Button>().colo
   }
  }
 }
