@@ -15,6 +15,12 @@ Presenter--Modelを操作-->Model
 View--Viewの変更を通知-->Presenter
 
 ```  
+### 便利なイベント
+| 命令語 | 説明 |
+|:---:|:---:|
+|OnClickAsync |クリックを待つ |
+|OnValueChangedAsync |値が変化するのを待つ |
+|OnEditAsync |入力が終わるのを待つ |
 
 # おまけ
 ### ReactiveCommandをUIに応用してみる 
