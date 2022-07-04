@@ -34,22 +34,17 @@ View--Viewの変更を通知-->Presenter
 |ReactiveCommand |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 
-# おまけ
-### ReactiveCommandをUIに応用してみる 
-・ReactiveCommandとは...　**処理が可能であるかを制御する機構**   
-・ReactiveCommandでトグルなどがTrueだった場合の処理を簡易化(ここではReactiveCommandのExcuteを用いてトグルと連動し、実行可能な状態かどうなのかを通知)。  
-
 ## 色々実装してみる
 ### MV(R)Pパターンを用いたBGMの調整、画像の色調整
 ![スクリーンショット 2022-07-05 000524](https://user-images.githubusercontent.com/96648305/177185133-270291de-af34-492f-bb33-07bea5539d00.png)
 
 ### ReactiveCommandを用いたBGM、SEのON、OFF    
 
-### 値を監視する
+### 値を監視する(ReactiveProperty)
 
 ![スクリーンショット 2022-07-05 003824](https://user-images.githubusercontent.com/96648305/177186361-758ec2c3-49ab-47eb-8e20-5fdf8c8694be.png)
 
-### 連続防止ボタン
+### 連続防止ボタン(UpdateAsObservable)
 
 ![スクリーンショット 2022-07-05 004347](https://user-images.githubusercontent.com/96648305/177186561-336c1e4b-5e89-442b-9a5b-5683a36d49db.png)
 
