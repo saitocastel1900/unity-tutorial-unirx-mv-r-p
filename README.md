@@ -38,7 +38,7 @@ View--Viewの変更を通知-->Presenter
 ### MV(R)Pパターンを用いたBGMの調整、画像の色調整
 ![スクリーンショット 2022-07-05 000524](https://user-images.githubusercontent.com/96648305/177185133-270291de-af34-492f-bb33-07bea5539d00.png)
 
-### ReactiveCommandを用いたBGM、SEのON、OFF    
+### ReactiveCommandを用いたBGMのON、OFF    
 
 ### 値を監視する(ReactiveProperty)
 
