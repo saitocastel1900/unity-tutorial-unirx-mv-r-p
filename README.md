@@ -94,6 +94,8 @@ public StepReactiveProperty _state;
 ![スクリーンショット 2022-07-05 000524](https://user-images.githubusercontent.com/96648305/177185133-270291de-af34-492f-bb33-07bea5539d00.png)
 
 ### ReactiveCommandを用いたBGMのON、OFF    
+![スクリーンショット 2022-07-05 040501](https://user-images.githubusercontent.com/96648305/177207048-f421ea46-3295-4228-a7bf-6f190ca3f560.png)
+
 
 ### 値を監視する(ReactiveProperty)
 
