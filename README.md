@@ -35,7 +35,60 @@ View--Viewの変更を通知-->Presenter
 |ReactiveCommand |入力が終わるのを待つ |
 
 ## カスタムReactivePropertyを作ってみる
+-Updateを回さなくても判断できるのでメモリにやさしい  
+-LINQで細かく指定できるので、コードも見やすい  
 
+・定義元  
+``` 
+ public enum STEP
+{
+    /// <summary>
+    /// 変化待ち状態
+    /// </summary>
+    NONE=-1,
+    /// <summary>
+    /// 値の初期化時・準備
+    /// </summary>
+    SET,
+    /// <summary>
+    /// ゲームプレイ時
+    /// </summary>
+    PLAY,
+    /// <summary>
+    /// ゲーム終了時
+    /// </summary>
+    CLEAR
+}
+
+[System.Serializable]
+public class StepReactiveProperty : ReactiveProperty<STEP>
+{
+    //コンストラクタ
+    public StepReactiveProperty() { }
+    public StepReactiveProperty(STEP initialValue) : base(initialValue) { }
+}
+```
+
+・使用元
+```
+public StepReactiveProperty _state;
+    
+    void Start()
+    {
+        _state
+            .DistinctUntilChanged()
+            .Where(x => x != STEP.CLEAR)
+            .Subscribe(_ =>
+            {
+                Result();
+            }).AddTo(this);
+    }
+    
+    void Result()
+    {
+       //GUIの表示とか... 
+    }
+```
 ## 色々実装してみる
 ### MV(R)Pパターンを用いたBGMの調整、画像の色調整
 ![スクリーンショット 2022-07-05 000524](https://user-images.githubusercontent.com/96648305/177185133-270291de-af34-492f-bb33-07bea5539d00.png)
