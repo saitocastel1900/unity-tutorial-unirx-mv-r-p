@@ -23,12 +23,12 @@ View--Viewの変更を通知-->Presenter
 |OnClickAsObservable |入力が終わるのを待つ |
 |IntReactiveProperty |ReactivePropertyの値をインスペクタで調整できるようになったもの |
 |Timer |指定した時間ごとに通知を出す |
-|ReactiveCommand | |
+|ReactiveCommand |処理が可能であるかを管理する |
 |EveryUpdate |マイフレーム通知を出す(gameObjectから独立したObservable) |
-|ReactiveProperty |value変化時に通知 |
-|OnClickAsObservable |入力が終わるのを待つ 
+|OnValueChangedAsObservable |トグルイベントのUniRXバージョン |
+|ObserveEveryValueChanged |値の変動を毎フレーム監視する 
 
-| LINQ | 説明 |
+| オペレータ | 説明 |
 |:---:|:---:|
 |ThrottleFirst |クリックを待つ |
 |Where |値が変化するのを待つ |
