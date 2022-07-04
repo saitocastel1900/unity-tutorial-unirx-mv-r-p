@@ -19,9 +19,9 @@ View--Viewの変更を通知-->Presenter
 | イベント | 説明 |
 |:---:|:---:|
 |UpdateAsObservable |クリックを待つ |
-|ReactiveProperty |値が変化するのを待つ |
+|ReactiveProperty |value変化時に通知 |
 |OnClickAsObservable |入力が終わるのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
+|IntReactiveProperty |ReactivePropertyの値をインスペクタで調整できるようになったもの |
 |ReactiveCommand |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 
