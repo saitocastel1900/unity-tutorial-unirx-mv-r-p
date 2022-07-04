@@ -27,7 +27,7 @@ View--Viewの変更を通知-->Presenter
 ・ReactiveCommandとは...　**処理が可能であるかを制御する機構**   
 ・ReactiveCommandでトグルなどがTrueだった場合の処理を簡易化(ここではReactiveCommandのExcuteを用いてトグルと連動し、実行可能な状態かどうなのかを通知)。  
 
-## MVRPパターンで実装してみる
+## 色々実装してみる
 ### MV(R)Pパターンを用いたBGMの調整、画像の色調整
 
 ### ReactiveCommandを用いたBGM、SEのON、OFF    
