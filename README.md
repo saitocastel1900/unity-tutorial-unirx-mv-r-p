@@ -29,9 +29,9 @@ View--Viewの変更を通知-->Presenter
 |:---:|:---:|
 |ThrottleFirst |クリックを待つ |
 |Where |値が変化するのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
+|DistinctUntilChanged |入力が終わるのを待つ |
+|AddTo |入力が終わるのを待つ |
+|BindTo |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 
 ## カスタムReactivePropertyを作ってみる
@@ -94,6 +94,8 @@ public StepReactiveProperty _state;
 ![スクリーンショット 2022-07-05 000524](https://user-images.githubusercontent.com/96648305/177185133-270291de-af34-492f-bb33-07bea5539d00.png)
 
 ### ReactiveCommandを用いたBGMのON、OFF    
+![スクリーンショット 2022-07-05 040501](https://user-images.githubusercontent.com/96648305/177207048-f421ea46-3295-4228-a7bf-6f190ca3f560.png)
+
 
 ### 値を監視する(ReactiveProperty)
 
