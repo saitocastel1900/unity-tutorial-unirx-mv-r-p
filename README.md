@@ -20,7 +20,7 @@ View--Viewの変更を通知-->Presenter
 |:---:|:---:|
 |UpdateAsObservable |クリックを待つ |
 |ReactiveProperty |値が変化するのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
+|OnClickAsObservable |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
