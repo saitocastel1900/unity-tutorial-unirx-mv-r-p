@@ -42,3 +42,7 @@ https://www.borndigital.co.jp/book/22432.html
 https://github.com/ryo620org/Padlock  
 https://qiita.com/OKsaiyowa/items/745c5359682c7baad6bf  
 https://www.hanachiru-blog.com/entry/2019/04/10/175015
+
+## 使用したサウンド
+らららコッペパン：https://stsic-bgm.github.io/rarara-koppepan/  
+https://soundeffect-lab.info/sound/button/  
