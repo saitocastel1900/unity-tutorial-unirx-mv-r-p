@@ -27,7 +27,7 @@ View--Viewの変更を通知-->Presenter
 |EveryUpdate |マイフレーム通知を出す(gameObjectから独立したObservable) |
 |OnValueChangedAsObservable |トグルイベントのUniRXバージョン |
 |ObserveEveryValueChanged |値の変動を毎フレーム監視する |
-|OnMouseDown,Drag.. |マウスイベントのObaserbableバージョン |
+|OnMouseDown,Drag,Pointer.. |マウスイベントのObaserbableバージョン |
 OnClickAsObservable |ボタンクリック時に呼ばれる |
 
 | オペレータ | 説明 |
