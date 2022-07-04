@@ -30,12 +30,21 @@ View--Viewの変更を通知-->Presenter
 
 | オペレータ | 説明 |
 |:---:|:---:|
-|ThrottleFirst |クリックを待つ |
+|ThrottleFirst |メッセージが入力されてから一定期間間引く |
 |Where |値が変化するのを待つ |
-|DistinctUntilChanged |入力が終わるのを待つ |
-|AddTo |入力が終わるのを待つ |
+|DistinctUntilChanged |前回と同じ値を削除 |
+|AddTo |オブジェクト削除時に処理を終了する |
 |BindTo |入力が終わるのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
+|Distinct |過去の値を取り除く |
+|First |条件を満たした最初の値を取り入れる |
+|Last |条件を持たした最後の値を取り入れる |
+|Skip |指定した値をスキップする |
+|SkipWhile |条件を満たしている間スキップする |
+|TakeWhile |条件を持たしている値を取り入れる |
+|Throttle |入力されてから一定時間経過したら最後のメッセージを取り出す |
+|Select |メッセージを変換する |
+|Merge |複数のObservableを合わせる |
+|Buffer |複数のメッセージをまとめる |
 
 #### 購読の基本機能
 ```
@@ -107,14 +116,13 @@ public StepReactiveProperty _state;
 ### ReactiveCommandを用いたBGMのON、OFF    
 ![スクリーンショット 2022-07-05 040501](https://user-images.githubusercontent.com/96648305/177207048-f421ea46-3295-4228-a7bf-6f190ca3f560.png)
 
-
 ### 値を監視する(ReactiveProperty)
-
 ![スクリーンショット 2022-07-05 003824](https://user-images.githubusercontent.com/96648305/177186361-758ec2c3-49ab-47eb-8e20-5fdf8c8694be.png)
 
 ### 連続防止ボタン(UpdateAsObservable)
-
 ![スクリーンショット 2022-07-05 004347](https://user-images.githubusercontent.com/96648305/177186561-336c1e4b-5e89-442b-9a5b-5683a36d49db.png)
+
+### タップ処理・長押し処理
 
 ## 参考
 https://orotiyamatano.hatenablog.com/entry/2019/08/19/Unity%E3%81%AEMVP%E3%80%81MV(R)P%E3%82%92%E8%AA%BF%E3%81%B9%E3%81%9F%E3%81%91%E3%81%A9%E3%80%81%E3%81%A9%E3%82%8C%E3%81%8C%E6%AD%A3%E3%81%97%E3%81%84%E3%82%93%E3%81%A0%EF%BC%9F   
