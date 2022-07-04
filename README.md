@@ -5,7 +5,7 @@ MV(R)Pの学習の一環で作成したプロジェクトです。
 ・主にWeb業界で使われているデザインパターン。クライアントが画面(UI)をよく操作することを前提としたデザインパターン。イベント処理が得意なUniRxと相性が良い。  
   
 Model:値を管理  
-Presenter:ModelとPresenterを繋ぐ  
+Presenter:ModelとPresenterを繋ぐ、互いを監視して値を反映する  
 View:UI全般。アニメーションもここに書く  
 ```mermaid
 graph TD
@@ -20,7 +20,10 @@ View--Viewの変更を通知-->Presenter
 |:---:|:---:|
 |UpdateAsObservable |クリックを待つ |
 |ReactiveProperty |値が変化するのを待つ |
-|OnEditAsync |入力が終わるのを待つ |
+|ReactiveCommand |入力が終わるのを待つ |
+|ReactiveCommand |入力が終わるのを待つ |
+|ReactiveCommand |入力が終わるのを待つ |
+|ReactiveCommand |入力が終わるのを待つ |
 
 # おまけ
 ### ReactiveCommandをUIに応用してみる 
@@ -29,10 +32,17 @@ View--Viewの変更を通知-->Presenter
 
 ## 色々実装してみる
 ### MV(R)Pパターンを用いたBGMの調整、画像の色調整
+![スクリーンショット 2022-07-05 000524](https://user-images.githubusercontent.com/96648305/177185133-270291de-af34-492f-bb33-07bea5539d00.png)
 
 ### ReactiveCommandを用いたBGM、SEのON、OFF    
 
 ### enumでのゲーム管理をUniRXに対応してみる
+
+### 値を監視する
+![スクリーンショット 2022-07-05 003824](https://user-images.githubusercontent.com/96648305/177186361-758ec2c3-49ab-47eb-8e20-5fdf8c8694be.png)
+
+### 連続防止ボタン
+![スクリーンショット 2022-07-05 004347](https://user-images.githubusercontent.com/96648305/177186561-336c1e4b-5e89-442b-9a5b-5683a36d49db.png)
 
 ## 参考
 https://orotiyamatano.hatenablog.com/entry/2019/08/19/Unity%E3%81%AEMVP%E3%80%81MV(R)P%E3%82%92%E8%AA%BF%E3%81%B9%E3%81%9F%E3%81%91%E3%81%A9%E3%80%81%E3%81%A9%E3%82%8C%E3%81%8C%E6%AD%A3%E3%81%97%E3%81%84%E3%82%93%E3%81%A0%EF%BC%9F   
