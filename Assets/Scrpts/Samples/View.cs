@@ -11,10 +11,16 @@ namespace UniRx.MVRP
 {
  public class View : MonoBehaviour
  {
-  void OnClick()
+  [SerializeField] private Image _gameobj;
+  public void Up()
   {
-  // this.gameObject.GetComponent<Button>().colo
+   _gameobj.color = Color.cyan;
   }
+  public void Down()
+  {
+   _gameobj.color = Color.magenta;
+  }
+  
  }
 }
    
