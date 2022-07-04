@@ -29,8 +29,8 @@ View--Viewの変更を通知-->Presenter
 |:---:|:---:|
 |ThrottleFirst |クリックを待つ |
 |Where |値が変化するのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
+|DistinctUntilChanged |入力が終わるのを待つ |
+|AddTo |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 
