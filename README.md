@@ -15,11 +15,20 @@ Presenter--Modelを操作-->Model
 View--Viewの変更を通知-->Presenter
 
 ```  
-### 便利なイベント
+### 便利なイベントとLINQ
 | イベント | 説明 |
 |:---:|:---:|
 |UpdateAsObservable |クリックを待つ |
 |ReactiveProperty |値が変化するのを待つ |
+|ReactiveCommand |入力が終わるのを待つ |
+|ReactiveCommand |入力が終わるのを待つ |
+|ReactiveCommand |入力が終わるのを待つ |
+|ReactiveCommand |入力が終わるのを待つ |
+
+| LINQ | 説明 |
+|:---:|:---:|
+|ThrottleFirst |クリックを待つ |
+|Where |値が変化するのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
@@ -39,9 +48,11 @@ View--Viewの変更を通知-->Presenter
 ### enumでのゲーム管理をUniRXに対応してみる
 
 ### 値を監視する
+
 ![スクリーンショット 2022-07-05 003824](https://user-images.githubusercontent.com/96648305/177186361-758ec2c3-49ab-47eb-8e20-5fdf8c8694be.png)
 
 ### 連続防止ボタン
+
 ![スクリーンショット 2022-07-05 004347](https://user-images.githubusercontent.com/96648305/177186561-336c1e4b-5e89-442b-9a5b-5683a36d49db.png)
 
 ## 参考
