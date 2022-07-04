@@ -45,8 +45,6 @@ View--Viewの変更を通知-->Presenter
 
 ### ReactiveCommandを用いたBGM、SEのON、OFF    
 
-### enumでのゲーム管理をUniRXに対応してみる
-
 ### 値を監視する
 
 ![スクリーンショット 2022-07-05 003824](https://user-images.githubusercontent.com/96648305/177186361-758ec2c3-49ab-47eb-8e20-5fdf8c8694be.png)
