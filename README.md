@@ -31,7 +31,7 @@ View--Viewの変更を通知-->Presenter
 |Where |値が変化するのを待つ |
 |DistinctUntilChanged |入力が終わるのを待つ |
 |AddTo |入力が終わるのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
+|BindTo |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 
 ## カスタムReactivePropertyを作ってみる
