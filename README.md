@@ -26,7 +26,9 @@ View--Viewの変更を通知-->Presenter
 |ReactiveCommand |処理が可能であるかを管理する |
 |EveryUpdate |マイフレーム通知を出す(gameObjectから独立したObservable) |
 |OnValueChangedAsObservable |トグルイベントのUniRXバージョン |
-|ObserveEveryValueChanged |値の変動を毎フレーム監視する 
+|ObserveEveryValueChanged |値の変動を毎フレーム監視する |
+|OnMouseDown,Drag.. |マウスイベントのObaserbableバージョン |
+OnClickAsObservable |ボタンクリック時に呼ばれる |
 
 | オペレータ | 説明 |
 |:---:|:---:|
@@ -34,7 +36,7 @@ View--Viewの変更を通知-->Presenter
 |Where |値が変化するのを待つ |
 |DistinctUntilChanged |前回と同じ値を削除 |
 |AddTo |オブジェクト削除時に処理を終了する |
-|BindTo |入力が終わるのを待つ |
+|BindTo ButtonのイベントとInteactableの連携が可能 |
 |Distinct |過去の値を取り除く |
 |First |条件を満たした最初の値を取り入れる |
 |Last |条件を持たした最後の値を取り入れる |
@@ -45,6 +47,7 @@ View--Viewの変更を通知-->Presenter
 |Select |メッセージを変換する |
 |Merge |複数のObservableを合わせる |
 |Buffer |複数のメッセージをまとめる |
+|Do|関数を登録可能 |
 
 #### 購読の基本機能
 ```
