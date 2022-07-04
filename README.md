@@ -18,12 +18,15 @@ View--Viewの変更を通知-->Presenter
 ### 便利なイベントとLINQ
 | イベント | 説明 |
 |:---:|:---:|
-|UpdateAsObservable |クリックを待つ |
+|UpdateAsObservable |UpdateをObservableで使えるようにした(指定したgameObjectに紐づくObservable) |
 |ReactiveProperty |value変化時に通知 |
 |OnClickAsObservable |入力が終わるのを待つ |
 |IntReactiveProperty |ReactivePropertyの値をインスペクタで調整できるようになったもの |
-|ReactiveCommand |入力が終わるのを待つ |
-|ReactiveCommand |入力が終わるのを待つ |
+|Timer |指定した時間ごとに通知を出す |
+|ReactiveCommand | |
+|EveryUpdate |マイフレーム通知を出す(gameObjectから独立したObservable) |
+|ReactiveProperty |value変化時に通知 |
+|OnClickAsObservable |入力が終わるのを待つ 
 
 | LINQ | 説明 |
 |:---:|:---:|
