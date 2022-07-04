@@ -16,7 +16,7 @@ View--Viewの変更を通知-->Presenter
 
 ```  
 ### 便利なイベント
-| 命令語 | 説明 |
+| イベント | 説明 |
 |:---:|:---:|
 |UpdateAsObservable |クリックを待つ |
 |ReactiveProperty |値が変化するのを待つ |
@@ -28,9 +28,9 @@ View--Viewの変更を通知-->Presenter
 ・ReactiveCommandでトグルなどがTrueだった場合の処理を簡易化(ここではReactiveCommandのExcuteを用いてトグルと連動し、実行可能な状態かどうなのかを通知)。  
 
 ## MVRPパターンで実装してみる
-・MV(R)Pパターンを用いたBGM、SEの調整
+### MV(R)Pパターンを用いたBGM、SEの調整
 
-・ReactiveCommandを用いたBGM、SEのON、OFF    
+## ReactiveCommandを用いたBGM、SEのON、OFF    
 
 ## enumでのゲーム管理をUniRXに対応してみる
 
