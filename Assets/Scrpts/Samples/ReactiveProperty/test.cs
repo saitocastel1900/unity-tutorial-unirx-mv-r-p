@@ -13,7 +13,7 @@ public class test : MonoBehaviour
     /// <summary>
     /// 値に変化があると通知する
     /// </summary>
-    public ReactiveProperty<int> hp = new ReactiveProperty<int>(100);
+    public IntReactiveProperty hp = new IntReactiveProperty(100);
 
     private void Update()
     {

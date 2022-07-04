@@ -22,11 +22,9 @@ public class Presenter : MonoBehaviour
     {
         //model=>view
         _model.Current
-            .Subscribe(x =>
-                {
-                    _inputField.text = x.ToString();
-                    _slider.value = x;
-                }
+            .Subscribe(x => { _inputField.text = x.ToString(); _slider.value = x; },
+                ex=>Debug.LogError("OnError!"),
+                ()=>Debug.Log("OnCompleted!")
             ).AddTo(this);
 
         //view=>model
