@@ -34,6 +34,14 @@ View--Viewの変更を通知-->Presenter
 |BindTo |入力が終わるのを待つ |
 |ReactiveCommand |入力が終わるのを待つ |
 
+#### 購読の基本機能
+```
+.Subscribe(x => { _inputField.text = x.ToString(); _slider.value = x; }, //行いたい関数
+                ex=>Debug.LogError("OnError!"), //エラー処理
+                ()=>Debug.Log("OnCompleted!") //完了通知
+            ).AddTo(this);
+```
+
 ## カスタムReactivePropertyを作ってみる
 -Updateを回さなくても判断できるのでメモリにやさしい  
 -LINQで細かく指定できるので、コードも見やすい  
