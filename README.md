@@ -48,6 +48,7 @@ OnClickAsObservable |ボタンクリック時に呼ばれる |
 |Merge |複数のObservableを合わせる |
 |Buffer |複数のメッセージをまとめる |
 |Do|関数を登録可能 |
+|TakeUntil|~したら、メッセージ発信を終了する|
 
 #### 購読の基本機能
 ```
