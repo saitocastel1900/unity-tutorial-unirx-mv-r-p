@@ -33,10 +33,10 @@ OnClickAsObservable |ボタンクリック時に呼ばれる |
 | オペレータ | 説明 |
 |:---:|:---:|
 |ThrottleFirst |メッセージが入力されてから一定期間間引く |
-|Where |値が変化するのを待つ |
+|Where |条件式に遭うものだけを.. |
 |DistinctUntilChanged |前回と同じ値を削除 |
 |AddTo |オブジェクト削除時に処理を終了する |
-|BindTo ButtonのイベントとInteactableの連携が可能 |
+|BindTo| ButtonのイベントとInteactableの連携が可能 |
 |Distinct |過去の値を取り除く |
 |First |条件を満たした最初の値を取り入れる |
 |Last |条件を持たした最後の値を取り入れる |
